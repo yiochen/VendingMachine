@@ -13,7 +13,7 @@ public class FreeObject extends PlayerObject {
 		return new FreeObject();
 	}
 
-	public FreeObject() {
+	private FreeObject() {
 		mType = PlayerObject.FREE_OBJECT;
 	}
 
