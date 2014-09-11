@@ -7,9 +7,12 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class Solar extends ApplicationAdapter {
+	
+	
 	private WorldController worldController;
 	private WorldRenderer worldRenderer;
 	private boolean paused;
+	
 	
 	@Override
 	public void create () { 
